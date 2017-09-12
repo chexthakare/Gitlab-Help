@@ -1,0 +1,37 @@
+1. download git bash
+link : https://docs.gitlab.com/ce/gitlab-basics/start-using-git.html
+
+2. Add your Git username and set your email 
+command
+git config --global user.name "YOUR_USERNAME"
+
+3.verify
+command
+git config --global user.name
+
+4. set mail id
+command
+git config --global user.email "your_email_address@example.com"
+
+5. verify
+command
+git config --global user.email
+
+6. Check information
+command
+git config --global --list
+
+7. create ssh rsa
+cat ~/.ssh/id_rsa.pub
+
+8. Generating a new SSH key pair
+ssh-keygen -t rsa -C "your.email@example.com" -b 4096
+
+9.paste it on ssh key to your gitlab profile
+
+10. enjoy git https://docs.gitlab.com/ce/gitlab-basics/start-using-git.html
+
+refer: https://the.earth.li/~sgtatham/putty/0.67/htmldoc/Chapter8.html#pubkey-puttygen
+
+chears
+
